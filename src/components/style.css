@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.left_panel {
+    min-height: 100vh;
+    background-color: #015249;
+    width: 280px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 1000;
+    position: relative;
+}
+.customers_button {
+    background-color: #043933;
+    color: #fff;
+    border-radius: 10px;
+}
+.main_body {
+    background-color: #F3F3F3;
+}
+.header_main{
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;
+}
+.customers_heading {
+    margin-left: 300px;
+    font-weight: 700;
+}
+.left_bar_handle {
+    position: absolute;
+    z-index: 100;
+    width: 20px;
+    height: 80px;
+    -webkit-border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    border-radius: 0 20px 20px 0;
+    background: #fff;
+    -webkit-box-shadow: -1px 0 5px rgba(0,0,0,.1);
+    -moz-box-shadow: -1px 0 5px rgba(0,0,0,.1);
+    box-shadow: -1px 0 5px rgba(0,0,0,.1);
+    border-right: 0;
+    right: -20px;
+    top: -100px;
+    bottom: 0;
+    margin: auto;
+    line-height: 80px;
+    text-align: right;
+    color: #999;
+    font-weight: 700;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.left-icon{
+    width: 18px;
+}
+.close_panel {
+    margin-left: -280px;
+}
+.main_content {
+    margin-top: 150px;
+}
+.add_button {
+    background-color: #015249;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+.top_bar {
+    background-color: #57BC90;
+    color: #015249;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.top_bar span {
+    width: 20%;
+    font-weight: 500;
+}
+.user_div span {
+    width: 20%;
+    font-weight: 500;
+}
+.user_div {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image_span img {
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+}
+.edit_button {
+    color: #fff;
+    border-radius: 5px;
+    width: 80px;
+    border: none;
+    height: 30px;
+    background-color: #39B54A;
+}
+.delete_button {
+    color: #fff;
+    background-color: #D80000;
+    border-radius: 5px;
+    width: 80px;
+    border: none;
+    height: 30px;
+}
